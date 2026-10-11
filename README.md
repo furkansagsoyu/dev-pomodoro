@@ -9,11 +9,9 @@
   <i>Scan your desk before you start, and let the app warn you about objects that could break your focus!</i>
 </p>
 
-<p align="center">
-  <a href="[https://flutter.dev](https://flutter.dev)"><img src="[https://img.shields.io/badge/Made%20with-Flutter-02569B?logo=flutter&logoColor=white](https://img.shields.io/badge/Made%20with-Flutter-02569B?logo=flutter&logoColor=white)" alt="Made with Flutter"></a>
-  <a href="[https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)"><img src="[https://img.shields.io/badge/License-MIT-blue.svg](https://img.shields.io/badge/License-MIT-blue.svg)" alt="License: MIT"></a>
-  <a href="[https://github.com/furkansagsoyu/dev-pomodoro/stargazers](https://github.com/furkansagsoyu/dev-pomodoro/stargazers)"><img src="[https://img.shields.io/github/stars/furkansagsoyu/dev-pomodoro?style=social](https://img.shields.io/github/stars/furkansagsoyu/dev-pomodoro?style=social)" alt="Stars"></a>
-</p>
+[![Flutter](https://img.shields.io/badge/Made%20with-Flutter-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/furkansagsoyu/dev-pomodoro?style=social)](https://github.com/furkansagsoyu/dev-pomodoro/stargazers)
 
 <hr>
 
