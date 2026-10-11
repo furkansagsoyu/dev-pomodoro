@@ -40,7 +40,7 @@ Flutter, Dart, TensorFlow Lite, Python / TensorFlow (model experiments)
 
 | Home | Statistics | Settings |
 |------|------------|----------|
-| ![Home](docs/screenshots/home.png) | ![Stats](docs/screenshots/stats.png) | ![Settings](docs/screenshots/settings.png) |
+| ![Home](docs/screenshots/home.jpg) | ![Stats](docs/screenshots/stats.jpg) | ![Settings](docs/screenshots/settings.jpg) |
 
 ## Roadmap
 
