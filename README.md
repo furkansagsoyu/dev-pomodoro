@@ -2,52 +2,80 @@
   <img src="docs/logo.png" width="120" alt="Dev Pomodoro logo">
 </p>
 
-<h1 align="center">Dev Pomodoro</h1>
+<h1 align="center">🚀 Dev Pomodoro</h1>
 
 <p align="center">
-  A Pomodoro timer for software developers. Scan your desk before you start,
-  and the app warns you about objects that could break your focus.
+  <strong>A smart Pomodoro timer tailored for software developers.</strong><br>
+  <i>Scan your desk before you start, and let the app warn you about objects that could break your focus!</i>
 </p>
 
-## Features
+<p align="center">
+  <a href="[https://flutter.dev](https://flutter.dev)"><img src="[https://img.shields.io/badge/Made%20with-Flutter-02569B?logo=flutter&logoColor=white](https://img.shields.io/badge/Made%20with-Flutter-02569B?logo=flutter&logoColor=white)" alt="Made with Flutter"></a>
+  <a href="[https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)"><img src="[https://img.shields.io/badge/License-MIT-blue.svg](https://img.shields.io/badge/License-MIT-blue.svg)" alt="License: MIT"></a>
+  <a href="[https://github.com/furkansagsoyu/dev-pomodoro/stargazers](https://github.com/furkansagsoyu/dev-pomodoro/stargazers)"><img src="[https://img.shields.io/github/stars/furkansagsoyu/dev-pomodoro?style=social](https://img.shields.io/github/stars/furkansagsoyu/dev-pomodoro?style=social)" alt="Stars"></a>
+</p>
 
-- Pomodoro timer with focus, short break and long break sessions
-- Desk scan: on-device object detection (TensorFlow Lite, SSD MobileNet on COCO) warns about distractions such as phones or snacks
-- Live countdown in the notification panel and an alert when a session ends
-- Daily brief with short developer tips ("What is `git push`?")
-- Daily statistics: focus time, sessions, streak and weekly chart
-- Dark (black-blue) and light (white-blue) themes
-- English and Turkish
+<hr>
 
-## Tech stack
+## ✨ Features
 
-Flutter, Dart, TensorFlow Lite, Python / TensorFlow (model experiments)
+- **🍅 Smart Pomodoro Timer**: Standard focus, short break, and long break sessions to keep you productive.
+- **📷 AI-Powered Desk Scan**: Uses on-device object detection (TensorFlow Lite, SSD MobileNet on COCO) to warn you about distractions (like smartphones or snacks) before you start coding.
+- **🔔 Seamless Notifications**: Live countdown in the notification panel and alerts when a session ends.
+- **💡 Daily Developer Briefs**: Get short, actionable developer tips every day (e.g., "What is `git push`?").
+- **📊 Detailed Statistics**: Track your focus time, session counts, streaks, and view your weekly progress chart.
+- **🎨 Dual Themes**: Eye-friendly Dark (black-blue) and crisp Light (white-blue) themes.
+- **🌍 Bilingual**: Fully supports English and Turkish.
 
-## Getting started
+## 🛠️ Tech Stack
 
-1. Install Flutter and Android Studio.
-2. Clone the repository:
-```bash
-   git clone https://github.com/YOUR-USERNAME/dev-pomodoro.git
+- **Frontend & Core**: [Flutter](https://flutter.dev/) & Dart
+- **Machine Learning**: TensorFlow Lite
+- **Model Experiments**: Python & TensorFlow
+
+## 🚀 Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- Android Studio or VS Code
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/furkansagsoyu/dev-pomodoro.git
    cd dev-pomodoro
+   ```
+2. Install dependencies:
+   ```bash
    flutter pub get
-```
-3. Download the COCO SSD MobileNet TFLite model and put `detect.tflite` and
-   `labelmap.txt` into the `assets/` folder.
-4. Connect an Android phone and run `flutter run`.
+   ```
+3. **Setup ML Model**: Download the COCO SSD MobileNet TFLite model. Place the `detect.tflite` and `labelmap.txt` files into the `assets/` directory.
+4. Run the app on a connected device or emulator:
+   ```bash
+   flutter run
+   ```
 
-## Screenshots
+## 📱 Screenshots
 
 | Home | Statistics | Settings |
-|------|------------|----------|
-| ![Home](docs/screenshots/home.jpg) | ![Stats](docs/screenshots/stats.jpg) | ![Settings](docs/screenshots/settings.jpg) |
+|:----:|:----------:|:--------:|
+| <img src="docs/screenshots/home.jpg" width="250" alt="Home"> | <img src="docs/screenshots/stats.jpg" width="250" alt="Stats"> | <img src="docs/screenshots/settings.jpg" width="250" alt="Settings"> |
 
-## Roadmap
+## 🗺️ Roadmap
 
-- Custom-trained CNN for developer-specific distractions
-- More languages
-- iOS support
+- [ ] Custom-trained CNN tailored specifically for developer distractions.
+- [ ] Support for more languages.
+- [ ] iOS version support.
+- [ ] Web dashboard for cross-device tracking.
 
-## License
+## 🤝 Contributing
 
-MIT
+Contributions, issues, and feature requests are welcome! 
+Feel free to check the [issues page](https://github.com/furkansagsoyu/dev-pomodoro/issues) if you want to contribute.
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
